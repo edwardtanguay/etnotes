@@ -9,8 +9,8 @@ interface IAppContext {
 	setSearchText: (searchText: string) => void;
 	topics: ITopic[];
 	setTopics: (topics: ITopic[]) => void;
-	filteredTopic: ITopic[];
-	setFilteredTopic: (topics: ITopic[]) => void;
+	filteredTopics: ITopic[];
+	setFilteredTopics: (topics: ITopic[]) => void;
 }
 
 interface IAppProvider {
