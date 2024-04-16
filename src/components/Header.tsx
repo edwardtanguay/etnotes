@@ -10,9 +10,9 @@ export const Header = () => {
 	return (
 		<div>
 			<div className="flex justify-between">
-				<h1 className="text-4xl mb-3">Edward's Notes</h1>
+				<h1 className="text-4xl mb-3 text-orange-200">Edward's Notes</h1>
 			</div>
-			<nav className="bg-slate-900 p-2 mainnav mb-6">
+			<nav className="bg-gray-700 p-2 mainnav mb-6">
 				<ul className="flex gap-3">
 					<li>
 						<Link

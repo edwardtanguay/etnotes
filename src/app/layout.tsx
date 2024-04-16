@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={`${inter.className} bg-slate-800 container mx-auto p-4 text-gray-400`}>
+      <body suppressHydrationWarning={true} className={`${inter.className} bg-gray-600 container mx-auto p-4 text-gray-400`}>
         <AppProvider>
           <>
             <Header />
