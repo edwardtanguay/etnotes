@@ -5,6 +5,7 @@ import "../../outline.scss";
 
 export default function Page({ params }: { params: { suuid: string } }) {
 	const { suuid } = params;
+	console.log('suuid', suuid);
 	const topic = appModel.topics.find((m) => m.suuid === suuid);
 
 	return (
