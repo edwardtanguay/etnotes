@@ -111,11 +111,10 @@ export default function TopicSearch() {
 						return (
 							<div key={index} className="mb-3">
 								<div className="text-yellow-400 smallcaps text-sm text-opacity-70">
-									{qdat.smartDateWithYear(filteredTopic.systemWhenCreated)} -{' '}
 									<span dangerouslySetInnerHTML={{ __html: filteredTopic.styledCategory }}></span>
 								</div>
 								<div><span className="searchHighlight"></span></div>
-								<Link href={`/topics/${filteredTopic.id}`} className='topicLink' onClick={(e) => { userUxLoadSinglePage() }}>
+								<Link href={`/topics/${filteredTopic.suuid}`} className='topicLink' onClick={(e) => { userUxLoadSinglePage() }}>
 									<span className="text-slate-50 text-xl" dangerouslySetInnerHTML={{ __html: filteredTopic.styledTitle }}></span>
 								</Link>
 							</div>

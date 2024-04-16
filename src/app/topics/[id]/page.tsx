@@ -3,9 +3,9 @@ import * as appModel from "../../../models/model";
 import * as qdat from "../../../qtools/qdat";
 import "../../outline.scss";
 
-export default function Page({ params }: { params: { id: string } }) {
-	const { id } = params;
-	const topic = appModel.topics.find((m) => String(m.id) === id);
+export default function Page({ params }: { params: { suuid: string } }) {
+	const { suuid } = params;
+	const topic = appModel.topics.find((m) => m.suuid === suuid);
 
 	return (
 		<>
