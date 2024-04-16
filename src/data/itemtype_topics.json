@@ -1,11 +1,10 @@
 [
 	{
 		"id": 1,
-		"category": "DPN",
-		"title": "How to send a variable from controller to front end",
-		"body": "\t- in controller:\n\t\t---------------------\n\t\tthat.responseData.firstName = 'nnn';\n\t\t---------------------\n\t- in page:\n\t\t---------------------\n\t\tthat.firstName = response.data.firstName;\n\t\t---------------------",
-		"points": 10,
-		"extras": "$rank=3.5",
+		"category": "Copenhagen",
+		"title": "Marathon Trip 2024",
+		"body": "- this is the itinerary\n- more",
+		"extras": "",
 		"systemWhenCreated": "2019-05-13 14:16:01",
 		"systemWhoCreated": "systemUnknown"
 	}

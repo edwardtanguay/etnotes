@@ -4,11 +4,11 @@ export default function About() {
 		<ul>
 			<li className="main">
 				<p className="mb-3">
-					More sites of mine:
+					This is a site created by Edward Tanguay. Here are more sites of mine:
 				</p>
 				<ul className="list-disc ml-4">
 					<li>
-						<a href="https://tanguay-eu.vercel.app">
+						<a href="https://tanguay-eu.vercel.app" className="text-yellow-200">
 							Edward's Tech Site 
 						</a>
 						<ul className="list-disc ml-4">
@@ -28,7 +28,7 @@ export default function About() {
 						</ul>
 					</li>
 					<li>
-						<a href="https://edward-tanguay-eu.vercel.app/about">
+						<a href="https://edward-tanguay-eu.vercel.app/about" className="text-yellow-200">
 							Edward Tanguay
 						</a>
 						<ul className="list-disc ml-4">
@@ -49,7 +49,7 @@ export default function About() {
 						</ul>
 					</li>
 					<li>
-						<a href="https://datapod-tanguay-eu.vercel.app/about">
+						<a href="https://datapod-tanguay-eu.vercel.app/about" className="text-yellow-200">
 							Datapod Project
 						</a>
 						<ul className="list-disc ml-4">
