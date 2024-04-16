@@ -1,9 +1,23 @@
 [
 	{
-		"suuid": "nM0hB4",
+		"suuid": "YKtm8E",
+		"category": "Copenhagen",
+		"title": "Danish",
+		"body": "- [social flashcards](https://soflash.vercel.app/learn)\n- [tanguay.info/danish](https://tanguay.info/danish/)\n- [book2 phrases](https://www.goethe-verlag.com/book2/FR/FRDA/FRDA003.HTM)",
+		"extras": "nn"
+	},
+	{
+		"suuid": "0ZqHnG",
+		"category": "Copenhagen",
+		"title": "Kierkegaard",
+		"body": "- links\n\t- [wiki](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)\n- basic infos\n\t- the first existentialist philosopher\n\t- fondness for metaphor, irony, and parables\n\t- how one lives as a single individual\n\t- giving priority to concrete human reality over abstract thinking \n\t- importance of personal choice and commitment\n\t- much of his work deals with Christian love\n\t- explored the emotions and feelings of individuals when faced with life choices\n\t- where Sartre focused on atheistic existentialism paradigm\n\t\t- Kierkegaard focused on Christian existentialism\n\t- by the turn of the 20th century his writings were translated into French, German, and other major European languages\n- life\n\t- born to an affluent family in Copenhagen\n\t- nnn",
+		"extras": "nn"
+	},
+	{
+		"suuid": "NeAkTa",
 		"category": "Copenhagen",
 		"title": "Marathon Trip 2024",
-		"body": "- before\n\t- get Danish krone##dandcrook\n- **Fri 2024-05-03**\n\t- 08:55 leave Berlin\n\t- 13:34 arrive Copenhagen\n\t- 12:00-19:00 Sparta Hall - pick up race number\n- **Sat 2024-05-04**\n\t- 10:00-19:00 Sparta Hall - pick up race number\n- Sun 2024-05-05\n\t- 07:30 start area opens\n\t- 09:30-15:00 *Marathon*\n- Mon 2024-05-06\n\t- *** ?09:00-15:00 Tour: Die ultimative Tagestour: Highlights & Hygge\n\t- ?12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen\n\t- ?13:00-15:00 Tour: Erkunde Kopenhagen mit dem Fahrrad\n\t- ?14:00-16:30 Tour: Entdecke den Stadtteil Nørrebro\n\t- *** ?16:00–18:30 Tour: Die Kierkegaard-Entdeckung\n- Tue 2024-05-07\n\t- ?09:00-15:00 Tour: Die ultimative Tagestour: Highlights & Hygge\n\t- ?10:00–13:00 Tour: Radtour durch Kopenhagen mit Einheimischen\n\t- *** ?12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen\n\t- ?13:00-15:00 Tour: Erkunde Kopenhagen mit dem Fahrrad\n- Wed 2024-05-08\n\t- 13:26 leave Copenhagen\n\t- 21:04 return Berlin",
+		"body": "- before\n\t- get Danish krone##dandcrook\n- **Fri 2024-05-03**\n\t- 08:55 leave Berlin\n\t- 13:34 arrive Copenhagen\n\t- 12:00-19:00 Sparta Hall - pick up race number\n- **Sat 2024-05-04**\n\t- 10:00-19:00 Sparta Hall - pick up race number\n- **Sun 2024-05-05**\n\t- 07:30 start area opens\n\t- 09:30-15:00 *Marathon*\n- **Mon 2024-05-06**\n\t- **09:00-15:00 Tour: Die ultimative Tagestour: Highlights & Hygge**\n\t- ?12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen\n\t- ?13:00-15:00 Tour: Erkunde Kopenhagen mit dem Fahrrad\n\t- ?14:00-16:30 Tour: Entdecke den Stadtteil Nørrebro\n\t- **16:00–18:30 Tour: Die Kierkegaard-Entdeckung**\n- **Tue 2024-05-07**\n\t- ?09:00-15:00 Tour: Die ultimative Tagestour: Highlights & Hygge\n\t- ?10:00–13:00 Tour: Radtour durch Kopenhagen mit Einheimischen\n\t- **12:30-14:30 Tour: Besuche über 15 Kopenhagener Sehenswürdigkeiten mit Einheimischen**\n\t- ?13:00-15:00 Tour: Erkunde Kopenhagen mit dem Fahrrad\n- **Wed 2024-05-08**\n\t- 13:26 leave Copenhagen\n\t- 21:04 return Berlin",
 		"extras": "nn"
 	}
 ]
