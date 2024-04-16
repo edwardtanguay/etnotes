@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export interface IHowto {
+export interface ITopic {
 	id: number;
 	category: string;
 	title: string;

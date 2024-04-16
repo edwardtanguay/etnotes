@@ -1,3 +1,3 @@
-import { buildHowtos } from './howtoModel';
+import { buildTopics } from './topicModel';
 
-export const howtos = buildHowtos();
+export const topics = buildTopics();

@@ -89,7 +89,7 @@ class OutlineTextParser extends TextParser {
 
 	}
 
-	// relativeDirectory = e.g. "customImages/howtos"
+	// relativeDirectory = e.g. "customImages/topics"
 	// sets = e.g. ""
 	setPublicImageDirectory(relativeDirectory: string) {
 		// this.targetImageAbsolutePath = `${config.getApplicationPath()  }public\\${  qstr.replaceAll(relativeDirectory, '/', '\\')  }\\`;

@@ -24,13 +24,13 @@ export const Header = () => {
 					</li>
 					<li>
 						<Link
-							href="/howtos"
-							className={`border-0 ${activeSegment === 'howtos'
+							href="/topics"
+							className={`border-0 ${activeSegment === 'topics'
 									? 'text-yellow-200'
 									: ''
 								}`}
 						>
-							Howtos
+							Topics
 						</Link>
 					</li>
 					<li>

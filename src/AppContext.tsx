@@ -1,16 +1,16 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { createContext } from 'react';
-import { IHowto } from './interfaces';
+import { ITopic } from './interfaces';
 import * as appModel from './models/model';
 
 interface IAppContext {
 	searchText: string;
 	setSearchText: (searchText: string) => void;
-	howtos: IHowto[];
-	setHowtos: (howtos: IHowto[]) => void;
-	filteredHowtos: IHowto[];
-	setFilteredHowtos: (howtos: IHowto[]) => void;
+	topics: ITopic[];
+	setTopics: (topics: ITopic[]) => void;
+	filteredTopic: ITopic[];
+	setFilteredTopic: (topics: ITopic[]) => void;
 }
 
 interface IAppProvider {
@@ -21,12 +21,12 @@ export const AppContext = createContext<IAppContext>({} as IAppContext);
 
 export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 	const [searchText, setSearchText] = useState('');
-	const [howtos, setHowtos] = useState<IHowto[]>([]);
-	const [filteredHowtos, setFilteredHowtos] = useState<IHowto[]>([]);
+	const [topics, setTopics] = useState<ITopic[]>([]);
+	const [filteredTopics, setFilteredTopics] = useState<ITopic[]>([]);
 
 	useEffect(() => {
-		setHowtos(appModel.howtos);
-		setFilteredHowtos(appModel.howtos);
+		setTopics(appModel.topics);
+		setFilteredTopics(appModel.topics);
 	}, []);
 
 	return (
@@ -34,10 +34,10 @@ export const AppProvider: React.FC<IAppProvider> = ({ children }) => {
 			value={{
 				searchText,
 				setSearchText,
-				howtos,
-				setHowtos,
-				filteredHowtos,
-				setFilteredHowtos,
+				topics,
+				setTopics,
+				filteredTopics,
+				setFilteredTopics,
 			}}
 		>
 			{children}
