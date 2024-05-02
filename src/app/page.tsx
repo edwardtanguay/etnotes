@@ -14,6 +14,7 @@ export default function Home() {
 			<ul className="list-disc ml-4 mb-5">
 				<li><a href="https://en.wikipedia.org/wiki/Copenhagen">Copenhagen wiki</a></li>
 				<li><a href="http://etnotes.vercel.app/maps/denmark.kmz">Copenhagen map</a></li>
+				<li><a href="https://www.airbnb.de/s/guidebooks?refinement_paths%5B%5D=%2Fguidebooks%2F2150833&share_channel=copy&_set_bev_on_new_domain=1714656467_MDNkYWVjMzE0YTY4">airbnb book places</a></li>
 			</ul>
 		</main>
 	);
