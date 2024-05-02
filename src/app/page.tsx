@@ -13,6 +13,7 @@ export default function Home() {
 			<h3 className="text-xl mb-3 text-yellow-100">Copenhagen Marathon Trip 2024</h3>
 			<ul className="list-disc ml-4 mb-5">
 				<li><a href="https://en.wikipedia.org/wiki/Copenhagen">Copenhagen wiki</a></li>
+				<li><a href="http://etnotes.vercel.app/maps/denmark.kmz">Copenhagen map</a></li>
 			</ul>
 		</main>
 	);
