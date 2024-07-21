@@ -6,7 +6,7 @@ export const buildTopics = () => {
 	let _topics: ITopic[] = [];
 	for (const rawTopic of rawTopics) {
 		const topic: ITopic = {
-			suuid: rawTopic.suuid,
+			dpodId: rawTopic.dpodId,
 			category: rawTopic.category,
 			title: rawTopic.title,
 			body: rawTopic.body,

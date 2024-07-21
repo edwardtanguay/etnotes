@@ -114,7 +114,7 @@ export default function TopicSearch() {
 									<span dangerouslySetInnerHTML={{ __html: filteredTopic.styledCategory }}></span>
 								</div>
 								<div><span className="searchHighlight"></span></div>
-								<Link href={`/topics/${filteredTopic.suuid}`} className='topicLink' onClick={(e) => { userUxLoadSinglePage() }}>
+								<Link href={`/topics/${filteredTopic.dpodId}`} className='topicLink' onClick={(e) => { userUxLoadSinglePage() }}>
 									<span className="text-slate-50 text-xl" dangerouslySetInnerHTML={{ __html: filteredTopic.styledTitle }}></span>
 								</Link>
 							</div>

@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 export interface ITopic {
-	suuid: string;
+	dpodId: string;
 	category: string;
 	title: string;
 	body: string;
