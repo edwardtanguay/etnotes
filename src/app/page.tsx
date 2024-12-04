@@ -19,7 +19,7 @@ export default function Home() {
 			<h3 className="text-xl mb-3 text-yellow-100">Hamburg Trip 2024</h3>
 			<ul className="list-disc ml-4 mb-5">
 				<li><a href="http://etnotes.vercel.app/maps/hamburg2024.kmz">Hamburg map</a></li>
-				<li><a target="_blank" href="http://etnotes.vercel.app/maps/h001.kmz">h001</a></li>
+				<li><a target="_blank" href="http://etnotes.vercel.app/maps/h001.kmz">h001</a> (blank)</li>
 			</ul>
 		</main>
 	);
